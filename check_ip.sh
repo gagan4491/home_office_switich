@@ -3,7 +3,7 @@ export PATH="/usr/bin:/bin:/usr/sbin:/sbin:$PATH"
 
 # Now you can use commands like `ifconfig` and `route` directly
 echo "Checking route..."
-route -n
+netstat -nr
 
 echo "Checking network configuration..."
 ifconfig ifconfig | grep  'bridge'
