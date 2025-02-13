@@ -16,7 +16,8 @@ This repository contains scripts and configuration files for setting up and mana
      - `Run.sh`: Orchestrates the execution of other scripts, sets up DNS, and manages screen sessions.
      - `For office.sh` & `For home.sh`: Adds necessary routes for office and home networks.
      - `Check_ip.sh`: Determines the correct script to run based on the subnet of the current IP address.
-
+     - `Check_ppp0.sh`: Determines that  run.sh is running its course 
+     
 3. **Crontab Configuration**
    - **File**: `crontab.pdf`
    - **Description**: Contains crontab entries to automate script executions based on the system's IP address, ensuring VPN routes are correctly managed upon system reboots and at specific times.
