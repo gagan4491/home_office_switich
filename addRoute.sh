@@ -18,4 +18,4 @@ sudo /sbin/route -n add -net 192.168.30.0/24 192.168.69.5
 
 #prod
 sudo /sbin/route -n add -net 10.110.110.0/24 192.168.69.7
-sudo /sbin/route -n add -net 10.111.1.0/24 192.168.69.7
+sudo /sbin/route -n add -net 10.111.1.0/16 192.168.69.7

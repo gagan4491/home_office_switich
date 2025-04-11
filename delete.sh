@@ -28,6 +28,8 @@ sudo route -n delete -net 192.168.30.0/24 192.168.69.5
 
 # prod
 sudo route -n delete -net 10.110.110.0/24 192.168.69.7
+sudo route -n delete -net 10.111.1.0/24 192.168.69.7
+
 
 
 

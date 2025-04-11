@@ -43,8 +43,8 @@ if [[ "$IP" == "$SUBNET1"* || "$IP" == "$SUBNET2"* ]]; then
     /Applications/UTM.app/Contents/MacOS/utmctl start prod
     sleep 10
 
-    /Users/gsingh/Documents/delete.sh
-    /Users/gsingh/Documents/addRoute-office.sh
+    /Users/gsingh/PycharmProjects/home_office/delete.sh
+    /Users/gsingh/PycharmProjects/home_office/addRoute-office.sh
 
     print_separator
 
@@ -63,8 +63,8 @@ else
     sleep 10
 
     echo "Running xyz.sh for subnet $SUBNET1.x"
-    /Users/gsingh/Documents/delete.sh
-    /Users/gsingh/Documents/addRoute.sh
+    /Users/gsingh/PycharmProjects/home_office/delete.sh
+    /Users/gsingh/PycharmProjects/home_office/addRoute.sh
 
     print_separator
 fi
