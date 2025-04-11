@@ -29,7 +29,6 @@ SUBNET2="192.168.100."
 
 
 
-# Check if the IP is in both subnets, otherwise execute the second operation
 if [[ "$IP" == "$SUBNET1"* || "$IP" == "$SUBNET2"* ]]; then
     echo "IP belongs to both subnets. Running first operation..."
     print_separator
